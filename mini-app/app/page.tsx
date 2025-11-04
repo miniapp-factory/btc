@@ -36,6 +36,16 @@ export default function Home() {
     <main className="flex flex-col gap-3 place-items-center px-4">
       <span className="text-2xl">{title}</span>
       <span className="text-muted-foreground">{description}</span>
+      <section className="mt-6 w-full max-w-2xl">
+        <h2 className="text-xl font-semibold mb-2">Why Bitcoin is Great</h2>
+        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+          <li>Decentralized and censorship‑resistant.</li>
+          <li>Limited supply of 21 million coins ensures scarcity.</li>
+          <li>Transparent ledger that anyone can audit.</li>
+          <li>Low transaction fees for cross‑border transfers.</li>
+          <li>Widely accepted as a store of value and medium of exchange.</li>
+        </ul>
+      </section>
     </main>
   );
 }
