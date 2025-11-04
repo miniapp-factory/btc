@@ -1,4 +1,5 @@
 import { description, title, url } from "@/lib/metadata";
+import { Share } from "@/components/share";
 import { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
@@ -45,6 +46,7 @@ export default function Home() {
           <li>Low transaction fees for cross‑border transfers.</li>
           <li>Widely accepted as a store of value and medium of exchange.</li>
         </ul>
+              <Share text={`${url} Why Bitcoin is Great: Decentralized, limited supply, transparent ledger, low fees, widely accepted.`} />
       </section>
     </main>
   );
